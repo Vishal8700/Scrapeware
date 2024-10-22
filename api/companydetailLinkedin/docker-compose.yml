@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  linkedin-scraper:
+    build: .
+    ports:
+      - "8003:8003"
+    environment:
+      - LINKEDIN_USERNAME=${LINKEDIN_USERNAME}
+      - LINKEDIN_PASSWORD=${LINKEDIN_PASSWORD}
+    volumes:
+      - .:/app

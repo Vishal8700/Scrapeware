@@ -1,0 +1,66 @@
+.CompanySearch-input-container {
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Center items vertically */
+  margin-bottom: 15px; /* Optional: Add some spacing below the container */
+}
+
+.CompanySearch-input {
+  width: calc(50% - 10px); /* Adjust width for inputs */
+  padding: 10px; 
+  margin-right: 10px; /* Space between inputs and button */
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+}
+
+.CompanySearch-button {
+  padding: 10px 15px ; 
+  width: 8%;
+  background-color: #339654; /* Primary color */
+  color: white; /* Text color */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.CompanySearch-button:hover {
+  background-color: #21e707; /* Darker shade on hover */
+}
+
+
+.loading-message,
+.error-message {
+  color: #ff0000; /* Red color for error messages */
+}
+
+/* Container for displaying companies */
+.companies-list-container {
+  max-height: 800px; /* Set a maximum height for scrolling */
+  overflow-y: auto; /* Enable vertical scrolling */
+  margin-top: 15px; /* Space above the list */
+}
+
+/* Individual company card styling */
+.company-card {
+  margin-bottom: 15px; /* Space between cards */
+  padding: 15px; /* Inner padding for cards */
+  border: 1px solid #eaeaea; /* Light border for cards */
+  border-radius: 5px; /* Rounded corners for cards */
+  background-color: #ffffff; /* White background for cards */
+}
+
+/* Company title styling */
+.company-title {
+  font-size: 1.2em; /* Larger font size for titles */
+}
+
+/* Company snippet styling */
+.company-snippet {
+  font-size: 0.9em; /* Smaller font size for snippets */
+}
+
+/* Link styling within company cards */
+.url {
+  display: block; /* Make link a block element to occupy full width */
+  margin-top: 10px; /* Space above the link */
+  color: #14c44e;
+}
