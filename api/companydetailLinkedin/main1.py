@@ -1,3 +1,4 @@
+# working company detail extractor
 import os
 import time
 import re
@@ -14,6 +15,23 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from fastapi.middleware.cors import CORSMiddleware
 
+
+# Your FastAPI app initialization
+app = FastAPI()
+
+# Set up CORS for React (or any other frontend)
+origins = [
+    "http://localhost:3000",  # React frontend running on localhost
+    "https://your-react-app.com"  # Update with your production frontend URL
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],  # You can restrict specific methods like ["GET", "POST"]
+    allow_headers=["*"],  # You can restrict specific headers if needed
+)
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
@@ -21,22 +39,6 @@ logger = logging.getLogger(__name__)
 # Load environment variables
 load_dotenv()
 
-app = FastAPI()
-
-# CORS configuration
-origins = [
-    "http://localhost:3000",  # Frontend app origin
-    "http://localhost",        # Allow localhost for development
-    # Add other allowed origins here
-]
-
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=origins,
-    allow_credentials=True,
-    allow_methods=["*"],  # Allow all methods
-    allow_headers=["*"],  # Allow all headers
-)
 
 LINKEDIN_USERNAME = os.getenv("LINKEDIN_USERNAME")
 LINKEDIN_PASSWORD = os.getenv("LINKEDIN_PASSWORD")

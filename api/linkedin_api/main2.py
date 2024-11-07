@@ -14,7 +14,7 @@ app = FastAPI()
 # Add CORS middleware
 origins = [
     "http://localhost:3000",  # Add your frontend's URL here
-    "http://your-react-app.com",  # Add any other domains you want to allow
+    "https://scrapeware.vercel.app",  # Add any other domains you want to allow
 ]
 
 app.add_middleware(
