@@ -9,7 +9,7 @@ app = FastAPI()
 # Add CORS middleware to allow all origins
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # You can specify allowed origins if needed
+    allow_origins=["http://localhost:3000", "https://scrapeware.vercel.app"],  # You can specify allowed origins if needed
     allow_credentials=True,
     allow_methods=["*"],  # Allow all HTTP methods
     allow_headers=["*"],  # Allow all headers

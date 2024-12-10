@@ -1,0 +1,119 @@
+2024-10-23 12:40:17,525 - INFO - === FastAPI Runner Starting ===
+2024-10-23 12:40:17,526 - INFO - Log file: logs\fastapi_runner_20241023_124017.log
+2024-10-23 12:40:17,526 - INFO - Starting all FastAPI applications...
+2024-10-23 12:40:17,556 - INFO - Started API: auction_api on 0.0.0.0:5000
+2024-10-23 12:40:17,556 - INFO - Waiting for auction_api to initialize...
+2024-10-23 12:40:20,575 - INFO - Started API: bid_api on 0.0.0.0:8000
+2024-10-23 12:40:20,575 - INFO - Waiting for bid_api to initialize...
+2024-10-23 12:40:23,591 - INFO - Started API: companydetailLinkedin on 0.0.0.0:8003
+2024-10-23 12:40:23,591 - INFO - Waiting for companydetailLinkedin to initialize...
+2024-10-23 12:40:26,601 - INFO - Started API: linkedin_api on 0.0.0.0:8002
+2024-10-23 12:40:26,601 - INFO - Waiting for linkedin_api to initialize...
+2024-10-23 12:40:29,614 - INFO - Started API: userapi on 0.0.0.0:8006
+2024-10-23 12:40:29,614 - INFO - Waiting for userapi to initialize...
+2024-10-23 12:40:32,615 - INFO - Successfully started 5 applications
+2024-10-23 12:40:32,615 - INFO - 
+=== Running Applications ===
+2024-10-23 12:40:32,615 - INFO - - auction_api:
+2024-10-23 12:40:32,615 - INFO -   URL: http://0.0.0.0:5000
+2024-10-23 12:40:32,615 - INFO -   Uptime: 0:00:15.058999
+2024-10-23 12:40:32,615 - INFO -   PID: 28804
+2024-10-23 12:40:32,615 - INFO - - bid_api:
+2024-10-23 12:40:32,615 - INFO -   URL: http://0.0.0.0:8000
+2024-10-23 12:40:32,615 - INFO -   Uptime: 0:00:12.040899
+2024-10-23 12:40:32,616 - INFO -   PID: 17584
+2024-10-23 12:40:32,616 - INFO - - companydetailLinkedin:
+2024-10-23 12:40:32,616 - INFO -   URL: http://0.0.0.0:8003
+2024-10-23 12:40:32,616 - INFO -   Uptime: 0:00:09.025427
+2024-10-23 12:40:32,616 - INFO -   PID: 36976
+2024-10-23 12:40:32,616 - INFO - - linkedin_api:
+2024-10-23 12:40:32,616 - INFO -   URL: http://0.0.0.0:8002
+2024-10-23 12:40:32,616 - INFO -   Uptime: 0:00:06.015937
+2024-10-23 12:40:32,616 - INFO -   PID: 16140
+2024-10-23 12:40:32,616 - INFO - - userapi:
+2024-10-23 12:40:32,616 - INFO -   URL: http://0.0.0.0:8006
+2024-10-23 12:40:32,616 - INFO -   Uptime: 0:00:03.002366
+2024-10-23 12:40:32,616 - INFO -   PID: 30656
+2024-10-23 12:40:32,616 - INFO - ========================
+
+2024-10-23 12:40:32,616 - INFO - 
+=== Running Applications ===
+2024-10-23 12:40:32,616 - INFO - - auction_api:
+2024-10-23 12:40:32,616 - INFO -   URL: http://0.0.0.0:5000
+2024-10-23 12:40:32,617 - INFO -   Uptime: 0:00:15.060031
+2024-10-23 12:40:32,617 - INFO -   PID: 28804
+2024-10-23 12:40:32,617 - INFO - - bid_api:
+2024-10-23 12:40:32,617 - INFO -   URL: http://0.0.0.0:8000
+2024-10-23 12:40:32,617 - INFO -   Uptime: 0:00:12.042911
+2024-10-23 12:40:32,617 - INFO -   PID: 17584
+2024-10-23 12:40:32,617 - INFO - - companydetailLinkedin:
+2024-10-23 12:40:32,617 - INFO -   URL: http://0.0.0.0:8003
+2024-10-23 12:40:32,617 - INFO -   Uptime: 0:00:09.026407
+2024-10-23 12:40:32,617 - INFO -   PID: 36976
+2024-10-23 12:40:32,617 - INFO - - linkedin_api:
+2024-10-23 12:40:32,617 - INFO -   URL: http://0.0.0.0:8002
+2024-10-23 12:40:32,617 - INFO -   Uptime: 0:00:06.016917
+2024-10-23 12:40:32,617 - INFO -   PID: 16140
+2024-10-23 12:40:32,617 - INFO - - userapi:
+2024-10-23 12:40:32,617 - INFO -   URL: http://0.0.0.0:8006
+2024-10-23 12:40:32,617 - INFO -   Uptime: 0:00:03.003346
+2024-10-23 12:40:32,617 - INFO -   PID: 30656
+2024-10-23 12:40:32,617 - INFO - ========================
+
+2024-10-23 12:40:32,618 - WARNING - Application auction_api crashed. Restarting...
+2024-10-23 12:40:32,626 - INFO - Started API: auction_api on 0.0.0.0:5000
+2024-10-23 12:40:32,626 - INFO - Successfully restarted auction_api
+2024-10-23 12:40:32,626 - WARNING - Application bid_api crashed. Restarting...
+2024-10-23 12:40:32,631 - INFO - Started API: bid_api on 0.0.0.0:8000
+2024-10-23 12:40:32,631 - INFO - Successfully restarted bid_api
+2024-10-23 12:40:32,631 - WARNING - Application companydetailLinkedin crashed. Restarting...
+2024-10-23 12:40:32,636 - INFO - Started API: companydetailLinkedin on 0.0.0.0:8003
+2024-10-23 12:40:32,637 - INFO - Successfully restarted companydetailLinkedin
+2024-10-23 12:40:32,637 - WARNING - Application linkedin_api crashed. Restarting...
+2024-10-23 12:40:32,642 - INFO - Started API: linkedin_api on 0.0.0.0:8002
+2024-10-23 12:40:32,642 - INFO - Successfully restarted linkedin_api
+2024-10-23 12:40:32,642 - WARNING - Application userapi crashed. Restarting...
+2024-10-23 12:40:32,648 - INFO - Started API: userapi on 0.0.0.0:8006
+2024-10-23 12:40:32,649 - INFO - Successfully restarted userapi
+2024-10-23 12:40:42,650 - INFO - 
+=== Running Applications ===
+2024-10-23 12:40:42,650 - INFO - - auction_api:
+2024-10-23 12:40:42,650 - INFO -   URL: http://0.0.0.0:5000
+2024-10-23 12:40:42,650 - INFO -   Uptime: 0:00:10.024637
+2024-10-23 12:40:42,650 - INFO -   PID: 36300
+2024-10-23 12:40:42,650 - INFO - - bid_api:
+2024-10-23 12:40:42,650 - INFO -   URL: http://0.0.0.0:8000
+2024-10-23 12:40:42,650 - INFO -   Uptime: 0:00:10.019637
+2024-10-23 12:40:42,650 - INFO -   PID: 25224
+2024-10-23 12:40:42,650 - INFO - - companydetailLinkedin:
+2024-10-23 12:40:42,650 - INFO -   URL: http://0.0.0.0:8003
+2024-10-23 12:40:42,650 - INFO -   Uptime: 0:00:10.013463
+2024-10-23 12:40:42,650 - INFO -   PID: 37560
+2024-10-23 12:40:42,650 - INFO - - linkedin_api:
+2024-10-23 12:40:42,650 - INFO -   URL: http://0.0.0.0:8002
+2024-10-23 12:40:42,650 - INFO -   Uptime: 0:00:10.008462
+2024-10-23 12:40:42,651 - INFO -   PID: 28480
+2024-10-23 12:40:42,651 - INFO - - userapi:
+2024-10-23 12:40:42,651 - INFO -   URL: http://0.0.0.0:8006
+2024-10-23 12:40:42,651 - INFO -   Uptime: 0:00:10.002491
+2024-10-23 12:40:42,651 - INFO -   PID: 36536
+2024-10-23 12:40:42,651 - INFO - ========================
+
+2024-10-23 12:40:42,651 - WARNING - Application auction_api crashed. Restarting...
+2024-10-23 12:40:42,656 - INFO - Started API: auction_api on 0.0.0.0:5000
+2024-10-23 12:40:42,657 - INFO - Successfully restarted auction_api
+2024-10-23 12:40:42,657 - WARNING - Application bid_api crashed. Restarting...
+2024-10-23 12:40:42,668 - INFO - Started API: bid_api on 0.0.0.0:8000
+2024-10-23 12:40:42,668 - INFO - Successfully restarted bid_api
+2024-10-23 12:40:42,668 - WARNING - Application companydetailLinkedin crashed. Restarting...
+2024-10-23 12:40:42,674 - INFO - Started API: companydetailLinkedin on 0.0.0.0:8003
+2024-10-23 12:40:42,674 - INFO - Successfully restarted companydetailLinkedin
+2024-10-23 12:40:42,674 - WARNING - Application linkedin_api crashed. Restarting...
+2024-10-23 12:40:42,679 - INFO - Started API: linkedin_api on 0.0.0.0:8002
+2024-10-23 12:40:42,679 - INFO - Successfully restarted linkedin_api
+2024-10-23 12:40:42,679 - WARNING - Application userapi crashed. Restarting...
+2024-10-23 12:40:42,686 - INFO - Started API: userapi on 0.0.0.0:8006
+2024-10-23 12:40:42,686 - INFO - Successfully restarted userapi
+2024-10-23 12:40:47,184 - INFO - Shutdown signal received. Stopping all applications...
+2024-10-23 12:40:47,184 - INFO - Stopping all applications...
+2024-10-23 12:40:47,184 - INFO - Stopping auction_api (PID: 21288)...
