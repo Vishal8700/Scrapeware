@@ -1,0 +1,11 @@
+.home-container {
+    display: flex;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .content-area {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }

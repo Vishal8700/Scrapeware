@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+selenium>=4.9.0
+python-dotenv
+pydantic

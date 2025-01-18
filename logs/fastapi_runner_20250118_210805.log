@@ -1,0 +1,10 @@
+2025-01-18 21:08:05,881 - INFO - === FastAPI Runner Starting ===
+2025-01-18 21:08:05,896 - INFO - Log file: logs\fastapi_runner_20250118_210805.log
+2025-01-18 21:08:05,896 - INFO - Starting all FastAPI applications...
+2025-01-18 21:08:05,896 - ERROR - Folder not found: C:\Users\visha\Downloads\Scrapeware-master\auction_api
+2025-01-18 21:08:05,896 - ERROR - Folder not found: C:\Users\visha\Downloads\Scrapeware-master\bid_api
+2025-01-18 21:08:05,896 - ERROR - Folder not found: C:\Users\visha\Downloads\Scrapeware-master\companydetailLinkedin
+2025-01-18 21:08:05,896 - ERROR - Folder not found: C:\Users\visha\Downloads\Scrapeware-master\linkedin_api
+2025-01-18 21:08:05,912 - ERROR - Folder not found: C:\Users\visha\Downloads\Scrapeware-master\userapi
+2025-01-18 21:08:05,912 - ERROR - No applications were started successfully
+2025-01-18 21:08:05,912 - INFO - === FastAPI Runner Stopped ===
